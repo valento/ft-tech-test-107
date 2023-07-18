@@ -1,0 +1,58 @@
+{
+	"data": {
+	  "items": [
+		{
+		  "symbolInput": "FTSE:FSI",
+		  "basic": {
+			"symbol": "FTSE:FSI",
+			"name": "FTSE 100 Index",
+			"exchange": "FTSE International",
+			"exhangeCode": "FSI",
+			"bridgeExchangeCode": "GBFT",
+			"currency": "GBP"
+		  },
+		  "quote": {
+			"lastPrice": 7429.56,
+			"openPrice": 7330.2,
+			"high": 7462.22,
+			"low": 7320.77,
+			"previousClosePrice": 7330.2,
+			"change1Day": 99.360000000000582,
+			"change1DayPercent": 1.3554882540722024,
+			"change1Week": -68.619999999999891,
+			"change1WeekPercent": -0.9151554110464124,
+			"timeStamp": "2022-03-02T16:45:45",
+			"volume": 1325548598.0
+		  }
+		},
+		{
+		  "symbolInput": "INX:IOM",
+		  "basic": {
+			"symbol": "INX:IOM",
+			"name": "S&P 500 INDEX",
+			"exchange": "CME:Index and Options Market",
+			"exhangeCode": "IOM",
+			"bridgeExchangeCode": "USCO",
+			"currency": "USD"
+		  },
+		  "quote": {
+			"lastPrice": 4392.31,
+			"openPrice": 4322.56,
+			"high": 4397.6,
+			"low": 4322.56,
+			"closePrice": 4306.26,
+			"previousClosePrice": 4306.26,
+			"change1Day": 86.050000000000182,
+			"change1DayPercent": 1.9982537050712261,
+			"change1Week": 166.8100000000004,
+			"change1WeekPercent": 3.9476984972192737,
+			"ask": 4393.21,
+			"bid": 4391.25,
+			"timeStamp": "2022-03-02T18:29:37",
+			"volume": 1592710000.0
+		  }
+		}
+	  ]
+	},
+	"timeGenerated": "2022-03-02T18:39:38"
+  }

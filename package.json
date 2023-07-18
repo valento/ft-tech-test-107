@@ -1,0 +1,42 @@
+{
+  "name": "ft-tech-test",
+  "version": "0.1.0",
+  "description": "FT technical test",
+  "main": "app.js",
+  "private": true,
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "test": "jest --env=node",
+    "build:client": "webpack --watch",
+    "server": "nodemon app.js",
+    "start": "rm -rf dist && npm-run-all --parallel build:client server"
+  },
+  "author": "Financial Times Ltd.",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sucrase": "^3.28.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "file-loader": "^6.2.0",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "supertest": "^6.2.2",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
