@@ -42,6 +42,7 @@ app.use('/update-data-hook', (req, res) => {
 
 // Protect it: Clients call for data here
 app.get('/get-local-data', (_, res) => {
+  console.log('Client calls...');
   try {
     const data = fs.readFileSync('data.json')
     let obj = JSON.parse(data)
@@ -101,7 +102,7 @@ app.get('/jsx', (req, res) => {
     } catch { err => data = null}
   }
   const templateData = {
-    data: JSON.parse(data),
+    data: data? JSON.parse(data) : null,
     pageTitle: 'Financial Times',
     content: 'Hello World!'
   }
