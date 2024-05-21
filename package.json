@@ -14,7 +14,8 @@
     "test": "jest --env=node",
     "build:client": "webpack --watch",
     "server": "nodemon app.js",
-    "start": "rm -rf dist && npm-run-all --parallel build:client server"
+    "start": "rm -rf dist && npm-run-all --parallel build:client server",
+    "start:windows": "@powershell rm -rf dist; npm-run-all --parallel build:client server"
   },
   "author": "Financial Times Ltd.",
   "license": "MIT",

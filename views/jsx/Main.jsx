@@ -4,6 +4,12 @@ import Home from './Components/Home';
 
 export default function Main(props) {
 
+	if(props.data !== undefined) {
+		console.log((props.data.data[0]))
+	} else {
+		console.log('Main Component: No new data...');
+	}
+
 	return (
 		<html lang="en">
 			<head>
